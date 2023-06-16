@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+body{
+    background: url(image/school.jpg) no-repeat;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+#login{
+    color: white;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    border-radius: 10px;
+    
+
+
+}
+.submitin{
+    padding-inline: 100px;
+    background-color: #003af7;
+    color: white;
+    
+}
+
+.forgot, .signin{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+.frgt{
+    background: black;
+}
+.forgotp{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 50px;
+    color: rgb(163, 1, 28);
+    text-decoration: wavy;
+    text-shadow: 10px;
+    background-color: white;
+}
+/* h1{
+    /* top: 50px; */
+    /* color: aqua; */
+/* } */ 
