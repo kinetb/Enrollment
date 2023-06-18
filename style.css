@@ -16,16 +16,21 @@ body{
     background-color: white;
     color: black;
     text-decoration: black;
+
+}
+#logo{
+    margin-left: 50px;
+}
+.nav-item{
+    padding-inline: 15px;
 }
 #navbarSupportedContent{
-    margin-left: 450px;
+    margin-left: 350px;
 
 }
 .BSITh1{
     color: white;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+  
     margin-left: 500px;
     margin-top: 50px;
     background-color: black;
@@ -37,16 +42,14 @@ body{
 #login{
     color: white;
     background-color: rgb(31, 31, 31);
-    text-align: center;
+    /* text-align: center; */
     height: 280px;
-    width: 280px;
+    width: 380px;
     position: absolute;
     top: 32%;
     left: 35%;
     border-radius: 10px;
     
-
-
 }
 .submitin{
     padding-inline: 100px;

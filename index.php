@@ -10,10 +10,9 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <!-- <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.png" alt=""></a> -->
-              <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.png" alt="logo"></a>
+              <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.jpg" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
               </button>
@@ -30,7 +29,7 @@
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#gallary">Gallary</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -49,7 +48,7 @@
             </div>
           </nav>
 
-
+ -->
 
 
 
@@ -94,8 +93,8 @@
     </div>
     <br>
   <div class="mb-3">
-    <label for="InputUname" class="form-label">Username</label>   
-    <input type="text" class="form-control" id="InputUname"  name="username" required>
+    <label for="InputPassword" class="form-label">Password</label>   
+    <input type="text" class="form-control" id="InputPassword"  name="password" required>
     </div>
     </form>
     <br>
