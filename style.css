@@ -12,6 +12,28 @@ body{
     background-size: cover;
     min-height: 80vh;
 }
+#navbar{
+    background-color: white;
+    color: black;
+    text-decoration: black;
+}
+#navbarSupportedContent{
+    margin-left: 450px;
+
+}
+.BSITh1{
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: black;
+    padding: 5px;
+    width: 304px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
 #login{
     color: white;
     background-color: rgb(31, 31, 31);
@@ -50,7 +72,6 @@ body{
     text-shadow: 10px;
     background-color: white;
 }
-/* h1{
-    /* top: 50px; */
-    /* color: aqua; */
-/* } */ 
+.login{
+    display: none;
+}

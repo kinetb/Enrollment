@@ -4,11 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Enrollment</title>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.png" alt=""></a> -->
+              <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Gallary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  
+                 
+                    
+                  
+                 
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+
+
+    <!-- navbar end -->
+    <h1 class="BSITh1">BSIT Enrollment</h1>
+    <button id="enrollb" class="enrollb">Enroll</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
-<div id="login">
+<div class="login" id="login">
     <br>
         <h1>Log in </h1><br>    
 <form method="post" class="loginform">
@@ -42,6 +113,7 @@
             </tr>
         </thead>
     </table> -->
+   <script src="index.js"></script>
     
 </body>
 </html>
