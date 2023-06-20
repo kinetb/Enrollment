@@ -10,9 +10,10 @@
 </head>
 <body>
     <!-- navbar -->
-    <!-- <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" id="logo"><img src="image/lourdeslogo.jpg" alt="logo"></a>
+              <a class="navbar-brand" href="#" id="logo"><img src="image/loudeslogo.jpg" alt="logo" width= "100px" ></a>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
               </button>
@@ -34,21 +35,14 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
-                  
-                 
-                    
-                  
-                 
+                
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
               </div>
             </div>
           </nav>
 
- -->
+
 
 
 
@@ -57,51 +51,45 @@
 
 
     <!-- navbar end -->
+
+
+
+
+
+
+    <!-- homestart -->
     <h1 class="BSITh1">BSIT Enrollment</h1>
-    <button id="enrollb" class="enrollb">Enroll</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <button id="enrollb" class="enrollb" onclick="enrollb()" >Enroll</button>
 
 
 
 
    
 <div class="login" id="login">
-    <br>
+    <!-- <br> -->
         <h1>Log in </h1><br>    
 <form method="post" class="loginform">
-  <div class="mb-3">
+  <div class="input">
     <label for="InputUname" class="form-label">Username</label>   
     <input type="text" class="form-control" id="InputUname"  name="username" required>
     </div>
-    <br>
-  <div class="mb-3">
+    <!-- <br> -->
+  <div class="input">
     <label for="InputUname" class="form-label">Email</label>   
     <input type="email" class="form-control" id="InputEmail"  name="email" required>
     </div>
-    <br>
-  <div class="mb-3">
+    <!-- <br> -->
+  <div class="input">
     <label for="InputPassword" class="form-label">Password</label>   
     <input type="text" class="form-control" id="InputPassword"  name="password" required>
     </div>
-    </form>
-    <br>
+    
+    <!-- <br> -->
     <button type="submit" class="submitin" name="inbutton">Log in</button>
-    <br><br>
+    <br>
     <a href="forgot.php" class="forgot">Forgot password?</a>
     <p>Don't have an account? <a href="signin" class="signin">Sign in</a></p>
+    </form>
 </div>
     <!-- <table class="table1">
         <thead>
