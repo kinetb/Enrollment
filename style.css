@@ -12,37 +12,47 @@ body{
     background-size: cover;
     min-height: 80vh;
 }
-
-#logo{
-    background-color: transparent;
-}
+    
+/* HOME */
 #navbar{
-    background-color: white;
+    background-color: white ;
     color: black;
-    text-decoration: black;
-
+    opacity: 0.7;
+    /* border: 1px solid black; */
 }
 #logo{
     margin-left: 50px;
+    margin-block: 0;
+    /* border: 1px solid black; */
+
 }
 .nav-item{
-    padding-inline: 15px;
+    margin-inline: 15px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    font-weight: bolder;
+    /* background-color: white; */
+
+    /* border: 1px solid black; */
 }
 #navbarSupportedContent{
     margin-left: 350px;
 
 }
+.HOME{
+    width: 500px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 80px;
+    margin-left: 150px;
+    text-align: center;
+}
 .BSITh1{
     color: white;
-  
-    margin-left: 500px;
-    margin-top: 50px;
-    background-color: black;
-    padding: 5px;
-    width: 304px;
-    border-radius: 10px;
-    opacity: 0.8;
 }
+
+/* student form */
+
 #login{
     color: white;
     background-color: rgb(31, 31, 31);
@@ -56,6 +66,10 @@ body{
     border-radius: 10px;
     
 }
+.login>h1{
+    text-align: center;
+}
+
 .submitin{
     padding-inline: 100px;
     background-color: #003af7;
@@ -83,8 +97,10 @@ body{
 .login{
     display: none;
 }
-
-.loginform{
+.enrollbtn{
+    display: block;
+}
+.loginform, .adminform{
     padding: 20px;
 }
 
@@ -99,6 +115,38 @@ body{
 .input input{
     width: 70%;
 }
-.enrollbtn{
+
+
+/* admin form */
+
+
+#loginadmin{
+    color: white;
+    background-color: rgb(31, 31, 31);
+    width: 380px;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    border-radius: 10px;
+}
+.loginadmin>h1{
+    text-align: center;
+}
+
+.loginadmin{
+    display: none;
+}
+
+
+.adminbtn{
     display: block;
+}
+.inputadmin{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-block: 5px;
+}
+.inputadmin>input{
+    width: 70%;
 }

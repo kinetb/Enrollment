@@ -6,3 +6,8 @@ enrollbutton.addEventListener("click", function(){
 
 })
 
+const form1 = document.querySelector(".loginadmin")
+const adminsbtn = document.querySelector("#admins")
+adminsbtn.addEventListener("click", function(){
+    form1.classList.toggle("adminbtn")
+})
